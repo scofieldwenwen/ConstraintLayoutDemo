@@ -8,6 +8,6 @@ public class TabActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.constraint_tab);
+        setContentView(R.layout.activity_constraint_tab);
     }
 }

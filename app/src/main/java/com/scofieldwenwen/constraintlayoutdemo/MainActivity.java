@@ -20,21 +20,28 @@ public class MainActivity extends AppCompatActivity {
         tvTab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ButtonActivity.class));
+                startActivity(new Intent(MainActivity.this, TabActivity.class));
             }
         });
 
         tvTab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, TabActivity.class));
+                startActivity(new Intent(MainActivity.this, GuidelineActivity.class));
             }
         });
 
         tvTab3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, GuidelineActivity.class));
+                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Main2Activity.class));
             }
         });
     }

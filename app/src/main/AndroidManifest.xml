@@ -16,11 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ButtonActivity">
+        <activity android:name=".AnimationActivity">
         </activity>
         <activity android:name=".TabActivity">
         </activity>
         <activity android:name=".GuidelineActivity"/>
+        <activity android:name=".Animation2Activity">
+        </activity>
+        <activity android:name=".Main2Activity">
+        </activity>
     </application>
 
 </manifest>

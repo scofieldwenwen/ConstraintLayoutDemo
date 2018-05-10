@@ -8,6 +8,6 @@ public class GuidelineActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.constraint_guide_line);
+        setContentView(R.layout.activity_constraint_guide_line);
     }
 }
